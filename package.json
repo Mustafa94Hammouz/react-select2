@@ -1,7 +1,7 @@
 {
   "name": "react-select2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://mustafa94hammouz.github.io/",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
