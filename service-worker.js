@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mustafa94hammouz/react-select2/precache-manifest.b06a915503ea2d1860d9579210b5c3c7.js"
+  "/react-select2/precache-manifest.f80898f701fad76d0d90fcc01b5c3a57.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mustafa94hammouz/react-select2/index.html", {
+workbox.routing.registerNavigationRoute("/react-select2/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

@@ -1,13 +1,13 @@
 {
-  "main.css": "/mustafa94hammouz/react-select2/static/css/main.b447aaf9.chunk.css",
-  "main.js": "/mustafa94hammouz/react-select2/static/js/main.de3e2633.chunk.js",
-  "main.js.map": "/mustafa94hammouz/react-select2/static/js/main.de3e2633.chunk.js.map",
-  "runtime~main.js": "/mustafa94hammouz/react-select2/static/js/runtime~main.169e95ad.js",
-  "runtime~main.js.map": "/mustafa94hammouz/react-select2/static/js/runtime~main.169e95ad.js.map",
-  "static/js/2.5ae20e85.chunk.js": "/mustafa94hammouz/react-select2/static/js/2.5ae20e85.chunk.js",
-  "static/js/2.5ae20e85.chunk.js.map": "/mustafa94hammouz/react-select2/static/js/2.5ae20e85.chunk.js.map",
-  "index.html": "/mustafa94hammouz/react-select2/index.html",
-  "precache-manifest.b06a915503ea2d1860d9579210b5c3c7.js": "/mustafa94hammouz/react-select2/precache-manifest.b06a915503ea2d1860d9579210b5c3c7.js",
-  "service-worker.js": "/mustafa94hammouz/react-select2/service-worker.js",
-  "static/css/main.b447aaf9.chunk.css.map": "/mustafa94hammouz/react-select2/static/css/main.b447aaf9.chunk.css.map"
+  "main.css": "/react-select2/static/css/main.b447aaf9.chunk.css",
+  "main.js": "/react-select2/static/js/main.3ef97449.chunk.js",
+  "main.js.map": "/react-select2/static/js/main.3ef97449.chunk.js.map",
+  "runtime~main.js": "/react-select2/static/js/runtime~main.d0c1e135.js",
+  "runtime~main.js.map": "/react-select2/static/js/runtime~main.d0c1e135.js.map",
+  "static/js/2.5ae20e85.chunk.js": "/react-select2/static/js/2.5ae20e85.chunk.js",
+  "static/js/2.5ae20e85.chunk.js.map": "/react-select2/static/js/2.5ae20e85.chunk.js.map",
+  "index.html": "/react-select2/index.html",
+  "precache-manifest.f80898f701fad76d0d90fcc01b5c3a57.js": "/react-select2/precache-manifest.f80898f701fad76d0d90fcc01b5c3a57.js",
+  "service-worker.js": "/react-select2/service-worker.js",
+  "static/css/main.b447aaf9.chunk.css.map": "/react-select2/static/css/main.b447aaf9.chunk.css.map"
 }
