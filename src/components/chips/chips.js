@@ -14,22 +14,35 @@ class Chips extends Component {
         this.props.deletingChip(e);
     }
 
+     multi(){
+            return this.props.selectedUsersArray.map((user, index) => {
+                return <Chip
+                    className='chip'
+                    key={index}
+                    icon={<FaceIcon/>}
+                    label={user}
+                    onDelete={() => this.handleDelete(user)}
+                    color={"secondary"}
+
+                />
+
+        })
+    }
+    single() {
+        return <Chip
+            className='chip'
+            icon={<FaceIcon/>}
+            label={this.props.selectedSingleUser}
+            onDelete={() => this.handleDelete(this.props.selectedSingleUser)}
+            color={"secondary"}
+        />
+    }
+
     render() {
+
         return (
                 <Paper className='chipsContainer'>
-                    {this.props.selectedUsers.map((user, index) => {
-                        return (
-                            <Chip
-                                className='chip'
-                                key={index}
-                                icon={<FaceIcon/>}
-                                label={user}
-                                onDelete={()=>this.handleDelete(user)}
-                                color={"secondary"}
-
-                            />
-                        );
-                    })}
+                    {this.props.type === 'single' && this.props.selectedSingleUser ? this.single() : this.multi()}
                 </Paper>
         );
     }

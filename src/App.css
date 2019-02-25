@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  background-color: #61dafb;
+  background-color: #363941;
+}
+h1{
+  color:white;
 }
 
 .App-logo {
@@ -20,9 +23,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 .container{
   position: absolute;
@@ -49,4 +49,16 @@ div.textArea {
   border: 1px inset #000000;
   background-color: white;
   font: small courier, monospace black;
+}
+.single {
+  position:absolute;
+  left: 30%;
+}
+.single h1, .multi h1 {
+  margin-top: -280px;
+}
+
+.multi {
+  position: absolute;
+  left: 70%;
 }
